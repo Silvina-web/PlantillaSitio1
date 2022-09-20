@@ -1,0 +1,155 @@
+
+$colorSeccion1: #f0e5dc;
+$colorSeccion2: #eacbc2;
+$colorSeccion3: #ddb788;
+$colorSecion4: #746566;
+$colorEncabezados: #c7645bfd;
+$colorBorde: #563f40;
+
+
+
+
+.header{
+    nav{
+       
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    a{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        height: 5rem;
+        width: 5rem; 
+        text-decoration: none;
+        color: black;
+         border-radius: 50%;
+        text-align: center;
+        font-size: 12px;
+        
+       
+
+}
+                     a:nth-child(1)  {
+                             background-color: $colorSeccion1;
+                             
+                            }
+
+
+                    a:nth-child(2){
+                                   background-color: $colorSeccion2;
+                                    }
+
+                    a:nth-child(3) {
+                        background-color:$colorSeccion3;
+                    } 
+                    a:nth-child(4)  {
+                        background-color: $colorSecion4;
+                    }            
+                                }
+
+      .article{
+             section{
+                   display: flex;
+                   align-items: center;
+                    justify-content: center;
+                    height: 100vh;
+                    h2{
+                       color: rgb(40, 40, 43);
+                            }
+                                
+                                }
+                                section:nth-child(1){
+                                    background-color: $colorSeccion1;
+                                
+                                }
+                                section:nth-child(2){
+                                    background-color: $colorSeccion2;
+                                    
+                                }
+                                section:nth-child(3){
+                                    background-color: $colorSeccion3;
+                                    
+                                }
+                                section:nth-child(4){
+                                    background-color: $colorSecion4;
+                                }
+
+
+        #seccion1{
+            .encabezadoSeccion1{
+                background-color: $colorEncabezados;
+                width: 35vw;
+                height: 20vh;
+                border-radius: 3px;
+                margin-right: auto;
+                margin-top: -25rem;
+                position: relative;
+
+                h2{
+                    text-align: center;
+                    margin-top: 3rem;
+                    }
+
+            }
+            .textoSeccion1{
+                border: 1px solid $colorBorde;
+                width: 40vw;
+                height: 30vh;
+                position: absolute;
+                top: 30vh;
+
+                p{
+                    text-align: center;
+                    margin-top: 5rem;
+                    border-radius: 3px;
+                    
+                }
+            }
+        }
+    #seccion2{
+        .encabezadoSeccion2{
+            background-color: $colorEncabezados;
+            width: 35vw;
+            height: 20vh;
+            border-radius: 3px;
+            margin-right: auto;
+            margin-top: -25rem;
+            position: relative;
+
+            h2{
+                margin-left: 2rem;
+                margin-top: 2rem;
+            }
+
+        }
+        .textoSeccion2{
+            border: 1px solid $colorSeccion1;
+            width: 40vw;
+            height: 40vh;
+            position: absolute;
+
+            ul{
+                list-style: none;
+                text-align: center;
+
+                li{
+                    padding: 2rem;
+                }
+            }
+            
+           
+
+        }
+
+
+}
+
+
+
+
+                                }

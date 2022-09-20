@@ -1,0 +1,104 @@
+.header nav {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  height: 5rem;
+  width: 5rem;
+  text-decoration: none;
+  color: black;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 12px;
+}
+.header a:nth-child(1) {
+  background-color: #f0e5dc;
+}
+.header a:nth-child(2) {
+  background-color: #eacbc2;
+}
+.header a:nth-child(3) {
+  background-color: #ddb788;
+}
+.header a:nth-child(4) {
+  background-color: #746566;
+}
+
+.article section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.article section h2 {
+  color: rgb(40, 40, 43);
+}
+.article section:nth-child(1) {
+  background-color: #f0e5dc;
+}
+.article section:nth-child(2) {
+  background-color: #eacbc2;
+}
+.article section:nth-child(3) {
+  background-color: #ddb788;
+}
+.article section:nth-child(4) {
+  background-color: #746566;
+}
+.article #seccion1 .encabezadoSeccion1 {
+  background-color: rgba(199, 100, 91, 0.9921568627);
+  width: 35vw;
+  height: 20vh;
+  border-radius: 3px;
+  margin-right: auto;
+  margin-top: -25rem;
+  position: relative;
+}
+.article #seccion1 .encabezadoSeccion1 h2 {
+  text-align: center;
+  margin-top: 3rem;
+}
+.article #seccion1 .textoSeccion1 {
+  border: 1px solid #563f40;
+  width: 40vw;
+  height: 30vh;
+  position: absolute;
+  top: 30vh;
+}
+.article #seccion1 .textoSeccion1 p {
+  text-align: center;
+  margin-top: 5rem;
+  border-radius: 3px;
+}
+.article #seccion2 .encabezadoSeccion2 {
+  background-color: rgba(199, 100, 91, 0.9921568627);
+  width: 35vw;
+  height: 20vh;
+  border-radius: 3px;
+  margin-right: auto;
+  margin-top: -25rem;
+  position: relative;
+}
+.article #seccion2 .encabezadoSeccion2 h2 {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.article #seccion2 .textoSeccion2 {
+  border: 1px solid #f0e5dc;
+  width: 40vw;
+  height: 40vh;
+  position: absolute;
+}
+.article #seccion2 .textoSeccion2 ul {
+  list-style: none;
+  text-align: center;
+}
+.article #seccion2 .textoSeccion2 ul li {
+  padding: 2rem;
+}/*# sourceMappingURL=estilos.css.map */
