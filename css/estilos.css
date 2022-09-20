@@ -101,4 +101,68 @@
 }
 .article #seccion2 .textoSeccion2 ul li {
   padding: 2rem;
-}/*# sourceMappingURL=estilos.css.map */
+}
+.article #seccion3 .seccion-imagenes {
+  width: 90vw;
+  margin: auto;
+  height: 100vh;
+}
+.article #seccion3 .seccion-imagenes h2 {
+  text-align: center;
+}
+.article #seccion3 .seccion-imagenes .cajaGrande {
+  /*  margin: 2rem 0;
+   gap: 1rem; */
+}
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas figure {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+  cursor: pointer;
+}
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas figure:hover:before {
+  position: absolute;
+  content: "";
+  background-color: rgba(116, 101, 102, 0.2666666667);
+  width: 100%;
+  height: 20%;
+}
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas figure img {
+  width: 100%;
+  /* height: 100%; */
+}
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande {
+  /*   display: none; */
+  outline: 5px solid red;
+  width: 30vw;
+}
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure {
+  position: relative;
+}
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure:hover:before {
+  position: absolute;
+  content: "";
+  background-color: rgba(209, 172, 174, 0.4745098039);
+  width: 35vw;
+  height: 40vh;
+}
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure img {
+  width: 30vw;
+  border-radius: 10px;
+}
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure p {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* article  *//*# sourceMappingURL=estilos.css.map */

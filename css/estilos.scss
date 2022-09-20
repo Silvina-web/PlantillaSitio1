@@ -150,6 +150,85 @@ $colorBorde: #563f40;
 }
 
 
+#seccion3{
+    .seccion-imagenes{
+        width: 90vw;
+        margin: auto;
+        height: 100vh;
+        h2{
+            text-align: center;
+        }
+
+        .cajaGrande{
+           /*  margin: 2rem 0;
+            gap: 1rem; */
+
+
+        .cajaImgChicas{
+            position: relative;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1rem;
+            figure{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                transition: all 1s;
+                cursor: pointer;
+                &:hover:before{
+                    position: absolute;
+                    content: "";
+                    background-color: #74656644;
+                    width: 100%;
+                    height: 20%; 
+                }
+                img{
+                    width: 100%;
+                    /* height: 100%; */
+
+                }
+            }
+        }    
+        
+        .cajaImgGrande{
+          /*   display: none; */
+          outline: 5px solid red;
+          width: 30vw;
+
+          figure{
+            position: relative;
+            &:hover:before{
+                position: absolute;
+                content: "";
+                background-color: #d1acae79;
+                width: 35vw;
+                height: 40vh;
+            }
+
+            img{
+                width: 30vw;
+                border-radius: 10px;
+            }
+            p{
+                position: absolute;
+                right: 2rem;
+                top: 1rem;
+                font-size: 25px;
+                cursor: pointer;
+            }
+          }
+
+
+        }
+    }
+}
+
+
 
 
                                 }
+
+
+
+
+                            } /* article  */
