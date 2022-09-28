@@ -102,6 +102,12 @@
 .article #seccion2 .textoSeccion2 ul li {
   padding: 2rem;
 }
+.article #seccion3 .body {
+  overflow: scroll;
+}
+.article #seccion3 .body.resize-body {
+  overflow: hidden;
+}
 .article #seccion3 .seccion-imagenes {
   width: 90vw;
   margin: auto;
@@ -111,8 +117,11 @@
   text-align: center;
 }
 .article #seccion3 .seccion-imagenes .cajaGrande {
-  /*  margin: 2rem 0;
-   gap: 1rem; */
+  margin: 2rem 0;
+  gap: 1rem;
+}
+.article #seccion3 .seccion-imagenes .cajaGrande.content-image-resize {
+  display: flex;
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas {
   position: relative;
@@ -138,8 +147,14 @@
   width: 100%;
   /* height: 100%; */
 }
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas.resize-box-imagenes {
+  overflow-y: scroll;
+  height: 70vh;
+  width: 50vw;
+  grid-template-columns: repeat(3, 1fr);
+}
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande {
-  /*   display: none; */
+  display: none;
   outline: 5px solid red;
   width: 30vw;
 }
@@ -163,6 +178,9 @@
   top: 1rem;
   font-size: 25px;
   cursor: pointer;
+}
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande.block.imagen {
+  display: inline-block;
 }
 
 /* article  *//*# sourceMappingURL=estilos.css.map */

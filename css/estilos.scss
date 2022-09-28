@@ -151,6 +151,14 @@ $colorBorde: #563f40;
 
 
 #seccion3{
+    .body {
+        overflow: scroll;
+    
+    &.resize-body{
+        overflow: hidden;
+    }
+
+}
     .seccion-imagenes{
         width: 90vw;
         margin: auto;
@@ -160,8 +168,14 @@ $colorBorde: #563f40;
         }
 
         .cajaGrande{
-           /*  margin: 2rem 0;
-            gap: 1rem; */
+           margin: 2rem 0;
+            gap: 1rem; 
+
+            &.content-image-resize{
+                display: flex;
+            }
+
+           
 
 
         .cajaImgChicas{
@@ -169,6 +183,8 @@ $colorBorde: #563f40;
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             gap: 1rem;
+
+           
             figure{
                 position: relative;
                 width: 100%;
@@ -188,18 +204,27 @@ $colorBorde: #563f40;
 
                 }
             }
+
+            &.resize-box-imagenes{
+                overflow-y: scroll;
+                height: 70vh;
+                width: 50vw;
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            
+           
         }    
         
         .cajaImgGrande{
-          /*   display: none; */
+         display: none;  
           outline: 5px solid red;
           width: 30vw;
-
-          figure{
+             figure{
             position: relative;
             &:hover:before{
                 position: absolute;
-                content: "";
+              content: ""; 
                 background-color: #d1acae79;
                 width: 35vw;
                 height: 40vh;
@@ -216,12 +241,26 @@ $colorBorde: #563f40;
                 font-size: 25px;
                 cursor: pointer;
             }
+
+           
           }
 
+          &.block.imagen{
+            display:inline-block;
+          }
+        
 
         }
+
+         
+
     }
-}
+
+  
+  
+}  
+ 
+
 
 
 
@@ -229,6 +268,10 @@ $colorBorde: #563f40;
                                 }
 
 
+  
+                              
 
 
-                            } /* article  */
+                            } 
+                            
+                               /* article  */
