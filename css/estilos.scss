@@ -219,7 +219,11 @@ $colorBorde: #563f40;
         .cajaImgGrande{
          display: none;  
           outline: 5px solid red;
-          width: 30vw;
+          width: 25vw;
+
+          &.block-imagen{
+            display: block;
+          }
              figure{
             position: relative;
             &:hover:before{
@@ -231,7 +235,7 @@ $colorBorde: #563f40;
             }
 
             img{
-                width: 30vw;
+                width: 25vw;
                 border-radius: 10px;
             }
             p{
@@ -245,9 +249,7 @@ $colorBorde: #563f40;
            
           }
 
-          &.block.imagen{
-            display:inline-block;
-          }
+          
         
 
         }

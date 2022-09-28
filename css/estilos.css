@@ -156,7 +156,10 @@
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande {
   display: none;
   outline: 5px solid red;
-  width: 30vw;
+  width: 25vw;
+}
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande.block-imagen {
+  display: block;
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure {
   position: relative;
@@ -169,7 +172,7 @@
   height: 40vh;
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure img {
-  width: 30vw;
+  width: 25vw;
   border-radius: 10px;
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure p {
@@ -178,9 +181,6 @@
   top: 1rem;
   font-size: 25px;
   cursor: pointer;
-}
-.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande.block.imagen {
-  display: inline-block;
 }
 
 /* article  *//*# sourceMappingURL=estilos.css.map */
