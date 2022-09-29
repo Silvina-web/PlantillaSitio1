@@ -130,50 +130,54 @@
   gap: 1rem;
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas figure {
+  outline: 2px solid red;
   position: relative;
-  width: 100%;
+  width: 85%;
   height: 100%;
   transition: all 1s;
   cursor: pointer;
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas figure:hover:before {
   position: absolute;
-  content: "";
-  background-color: rgba(116, 101, 102, 0.2666666667);
+  /* content: "";
+  background-color: #74656644;
   width: 100%;
-  height: 20%;
+  height: 20%;  */
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas figure img {
-  width: 100%;
+  width: 85%;
   /* height: 100%; */
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas.resize-box-imagenes {
+  outline: 3px solid blue;
   overflow-y: scroll;
   height: 70vh;
   width: 50vw;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande {
   display: none;
-  outline: 5px solid red;
   width: 25vw;
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande.block-imagen {
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure {
   position: relative;
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure:hover:before {
   position: absolute;
-  content: "";
-  background-color: rgba(209, 172, 174, 0.4745098039);
-  width: 35vw;
-  height: 40vh;
+  /* content: "";  
+    background-color: #d1acae79;
+    width: 35vw;
+    height: 100vh; */
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure img {
-  width: 25vw;
+  margin-left: 6rem;
+  width: 28vw;
   border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(92, 92, 92, 0.753);
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure p {
   position: absolute;

@@ -23,5 +23,13 @@ for( const idimagen of idImage){
 let n = 0;
 function seleccionar(n){
     let obj = img.item(n);
-    cajaImgChicas.src = obj.src;
+    imgGrande.src = obj.src;
 }
+
+close.addEventListener("click", (envet)=>{
+    cajaImgChicas.classList.remove('resize-box-imagenes');
+        cajaGrande.classList.remove('content-image-resize');
+        cajaImgGrande.classList.remove('block-imagen');
+       body.classList.remove('resize-body');
+
+})
