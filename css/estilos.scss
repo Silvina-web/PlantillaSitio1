@@ -16,9 +16,22 @@ $colorBorde: #563f40;
         top: 50%;
         right: 0;
         transform: translateY(-50%);
+
+         @media screen  and (max-width: 800px) {
+            outline: 5px solid yellow;
+            display: flex;
+            flex-direction: row;
+            position: fixed;
+            top: 10%;
+            width: 100vw;
+            z-index: 2;
+            
+           
+            
+        }
     }
     a{
-        
+         outline: 3px solid blue;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -30,6 +43,19 @@ $colorBorde: #563f40;
          border-radius: 50%;
         text-align: center;
         font-size: 12px;
+
+        @media screen  and (max-width: 800px) {
+            outline: 5px solid rgb(37, 25, 207);
+            margin: 1rem;
+            width: 3rem;
+            height: 3rem;
+            margin-left: auto;
+            margin-right: auto;
+            
+            
+            
+            
+        }
         
        
 
