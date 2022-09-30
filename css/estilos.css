@@ -1,4 +1,5 @@
 .header nav {
+  outline: 5px solid pink;
   position: fixed;
   top: 50%;
   right: 0;
@@ -30,6 +31,10 @@
   background-color: #746566;
 }
 
+.article {
+  /* .......................seccion con js ....................seccion con js */
+  /* cierro seccion 3 */
+}
 .article section {
   display: flex;
   align-items: center;
@@ -102,6 +107,9 @@
 .article #seccion2 .textoSeccion2 ul li {
   padding: 2rem;
 }
+.article #seccion3 {
+  /* cierro seccion imagenes */
+}
 .article #seccion3 .body {
   overflow: scroll;
 }
@@ -112,6 +120,7 @@
   width: 90vw;
   margin: auto;
   height: 100vh;
+  /* cierro caja grande */
 }
 .article #seccion3 .seccion-imagenes h2 {
   text-align: center;
@@ -119,6 +128,7 @@
 .article #seccion3 .seccion-imagenes .cajaGrande {
   margin: 2rem 0;
   gap: 1rem;
+  /* cierro cajaImgChicas */
 }
 .article #seccion3 .seccion-imagenes .cajaGrande.content-image-resize {
   display: flex;
@@ -128,6 +138,8 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
+  /* cierro figure */
+  /* cierro resize-box-imagenes */
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas figure {
   outline: 2px solid red;
@@ -181,8 +193,10 @@
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure p {
   position: absolute;
-  right: 2rem;
+  right: 3rem;
   top: 1rem;
   font-size: 25px;
   cursor: pointer;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/* cierro article *//*# sourceMappingURL=estilos.css.map */
