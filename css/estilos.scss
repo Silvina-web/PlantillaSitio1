@@ -11,7 +11,7 @@ $colorBorde: #563f40;
 
 .header{
     nav{
-        outline: 5px solid pink;
+       outline: 5px solid pink; 
         position: fixed;
         top: 50%;
         right: 0;
@@ -22,7 +22,7 @@ $colorBorde: #563f40;
             display: flex;
             flex-direction: row;
             position: fixed;
-            top: 10%;
+            top: 5%;
             width: 100vw;
             z-index: 2;
             
@@ -31,7 +31,7 @@ $colorBorde: #563f40;
         }
     }
     a{
-         outline: 3px solid blue;
+        outline: 3px solid blue; 
         display: flex;
         justify-content: center;
         align-items: center;
@@ -45,10 +45,10 @@ $colorBorde: #563f40;
         font-size: 12px;
 
         @media screen  and (max-width: 800px) {
-            outline: 5px solid rgb(37, 25, 207);
+            outline: 5px solid rgb(59, 107, 57);
             margin: 1rem;
-            width: 3rem;
-            height: 3rem;
+            width: 3.2rem;
+            height: 3.2rem;
             margin-left: auto;
             margin-right: auto;
             
@@ -121,20 +121,32 @@ $colorBorde: #563f40;
                     margin-top: 3rem;
                     }
 
+                    @media screen  and (max-width: 800px) {
+                        outline: 5px solid blue;
+                        width: 55vw;
+                    }
+
             }
             .textoSeccion1{
+                outline: 2px solid pink;
                 border: 1px solid $colorBorde;
                 width: 40vw;
                 height: 30vh;
                 position: absolute;
                 top: 30vh;
+                   p{
+                        text-align: center;
+                        margin-top: 5rem;
+                        border-radius: 3px;
+                      }
 
-                p{
-                    text-align: center;
-                    margin-top: 5rem;
-                    border-radius: 3px;
-                    
+                @media screen  and (max-width: 800px){
+                    outline: 5px solid red;
+                    width: 75vw;
+                    height: 40vh;
+                    top: 35vh;
                 }
+
             }
         }
     #seccion2{
@@ -185,11 +197,20 @@ $colorBorde: #563f40;
                      }
         }
     .seccion-imagenes{
+        outline: 5px solid pink;
         width: 90vw;
         margin: auto;
         height: 100vh;
+      /*   @media screen  and (max-width: 800px){
+            margin-top: 6rem;
+        } */
+
                h2{
                      text-align: center;
+                     @media screen  and (max-width: 800px){
+                        margin-top: 7rem;
+                     }
+                    
                  }
                .cajaGrande{
                   margin: 2rem 0;
@@ -200,13 +221,18 @@ $colorBorde: #563f40;
                           }
 
                            .cajaImgChicas{
+                            outline: 5px solid rgb(93, 93, 141);
                             position: relative;
                             display: grid;
                             grid-template-columns: repeat(5, 1fr);
                             gap: 1rem;
+                            width: 85vw;
+                            height: 80vh;
+                            margin-top: 5rem;
 
                                  figure{
                                    outline: 2px solid red;
+                                   text-align: center;
                                    position: relative;
                                    width: 85%;
                                    height: 100%;
@@ -221,18 +247,34 @@ $colorBorde: #563f40;
                                                 }
                                         img{
                                          width: 85%;
+                                         
                                       /* height: 100%; */
 
                                              }
                                        } /* cierro figure */
 
                                         &.resize-box-imagenes{
-                                         outline: 3px solid blue;
+                                         outline: 3px solid blue; 
                                          overflow-y: scroll;
                                          height: 70vh;
                                           width: 50vw;
                                         grid-template-columns: repeat(2, 1fr);
                                                            }  /* cierro resize-box-imagenes */
+
+
+                                                           @media screen  and (max-width: 800px){
+                                                             display: flex;
+                                                             flex-direction: column;
+                                                             align-items: center;
+                                                             margin-top: 4rem;
+                                                             overflow-y: scroll;
+                                                             height: 70vh;
+                                                             outline: 5px solid brown;
+
+                                                             &.resize-box-imagenes{
+                                                                width: 900vw;
+                                                             }
+                                                           }                  
 
                                 }    /* cierro cajaImgChicas */
         
@@ -244,7 +286,6 @@ $colorBorde: #563f40;
             justify-content: center;
             
             
-          }
              figure{
             position: relative;
             &:hover:before{
@@ -269,17 +310,21 @@ $colorBorde: #563f40;
                 cursor: pointer;
             }
         }
+        
+} /* cierro caja grande */
 
-     }
-
- } /* cierro caja grande */
+ @media screen  and (max-width: 800px){
+    &.block-imagen{
+    display: none;
+    }
+ }
 
 }  /* cierro seccion imagenes */
  
  }/* cierro seccion 3 */
 
  } /* cierro article */
-                            
+}}                         
 
                             
                             

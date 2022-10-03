@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     position: fixed;
-    top: 10%;
+    top: 5%;
     width: 100vw;
     z-index: 2;
   }
@@ -32,10 +32,10 @@
 }
 @media screen and (max-width: 800px) {
   .header a {
-    outline: 5px solid rgb(37, 25, 207);
+    outline: 5px solid rgb(59, 107, 57);
     margin: 1rem;
-    width: 3rem;
-    height: 3rem;
+    width: 3.2rem;
+    height: 3.2rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -55,7 +55,6 @@
 
 .article {
   /* .......................seccion con js ....................seccion con js */
-  /* cierro seccion 3 */
 }
 .article section {
   display: flex;
@@ -91,7 +90,14 @@
   text-align: center;
   margin-top: 3rem;
 }
+@media screen and (max-width: 800px) {
+  .article #seccion1 .encabezadoSeccion1 {
+    outline: 5px solid blue;
+    width: 55vw;
+  }
+}
 .article #seccion1 .textoSeccion1 {
+  outline: 2px solid pink;
   border: 1px solid #563f40;
   width: 40vw;
   height: 30vh;
@@ -102,6 +108,14 @@
   text-align: center;
   margin-top: 5rem;
   border-radius: 3px;
+}
+@media screen and (max-width: 800px) {
+  .article #seccion1 .textoSeccion1 {
+    outline: 5px solid red;
+    width: 75vw;
+    height: 40vh;
+    top: 35vh;
+  }
 }
 .article #seccion2 .encabezadoSeccion2 {
   background-color: rgba(199, 100, 91, 0.9921568627);
@@ -130,7 +144,7 @@
   padding: 2rem;
 }
 .article #seccion3 {
-  /* cierro seccion imagenes */
+  /* cierro article */
 }
 .article #seccion3 .body {
   overflow: scroll;
@@ -139,32 +153,47 @@
   overflow: hidden;
 }
 .article #seccion3 .seccion-imagenes {
+  outline: 5px solid pink;
   width: 90vw;
   margin: auto;
   height: 100vh;
-  /* cierro caja grande */
+  /*   @media screen  and (max-width: 800px){
+        margin-top: 6rem;
+    } */
+  /* cierro seccion 3 */
 }
 .article #seccion3 .seccion-imagenes h2 {
   text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .article #seccion3 .seccion-imagenes h2 {
+    margin-top: 7rem;
+  }
 }
 .article #seccion3 .seccion-imagenes .cajaGrande {
   margin: 2rem 0;
   gap: 1rem;
   /* cierro cajaImgChicas */
+  /* cierro seccion imagenes */
 }
 .article #seccion3 .seccion-imagenes .cajaGrande.content-image-resize {
   display: flex;
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas {
+  outline: 5px solid rgb(93, 93, 141);
   position: relative;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
+  width: 85vw;
+  height: 80vh;
+  margin-top: 5rem;
   /* cierro figure */
   /* cierro resize-box-imagenes */
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas figure {
   outline: 2px solid red;
+  text-align: center;
   position: relative;
   width: 85%;
   height: 100%;
@@ -189,36 +218,54 @@
   width: 50vw;
   grid-template-columns: repeat(2, 1fr);
 }
+@media screen and (max-width: 800px) {
+  .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    overflow-y: scroll;
+    height: 70vh;
+    outline: 5px solid brown;
+  }
+  .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas.resize-box-imagenes {
+    width: 900vw;
+  }
+}
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande {
   display: none;
   width: 25vw;
+  /* cierro caja grande */
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande.block-imagen {
   display: flex;
   justify-content: center;
 }
-.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure {
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande.block-imagen figure {
   position: relative;
 }
-.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure:hover:before {
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande.block-imagen figure:hover:before {
   position: absolute;
   /* content: "";  
     background-color: #d1acae79;
     width: 35vw;
     height: 100vh; */
 }
-.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure img {
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande.block-imagen figure img {
   margin-left: 6rem;
   width: 28vw;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(92, 92, 92, 0.753);
 }
-.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande figure p {
+.article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande.block-imagen figure p {
   position: absolute;
   right: 3rem;
   top: 1rem;
   font-size: 25px;
   cursor: pointer;
 }
-
-/* cierro article *//*# sourceMappingURL=estilos.css.map */
+@media screen and (max-width: 800px) {
+  .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande.block-imagen {
+    display: none;
+  }
+}/*# sourceMappingURL=estilos.css.map */
