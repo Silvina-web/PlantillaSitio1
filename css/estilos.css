@@ -55,6 +55,7 @@
 
 .article {
   /* .......................seccion con js ....................seccion con js */
+  /* ---------seccion4 */
 }
 .article section {
   display: flex;
@@ -142,9 +143,6 @@
 }
 .article #seccion2 .textoSeccion2 ul li {
   padding: 2rem;
-}
-.article #seccion3 {
-  /* cierro article */
 }
 .article #seccion3 .body {
   overflow: scroll;
@@ -268,4 +266,7 @@
   .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande.block-imagen {
     display: none;
   }
+}
+.article #seccion4 h2 {
+  margin-top: -35rem;
 }/*# sourceMappingURL=estilos.css.map */

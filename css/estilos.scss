@@ -25,10 +25,9 @@ $colorBorde: #563f40;
             top: 5%;
             width: 100vw;
             z-index: 2;
-            
            
-            
-        }
+
+             }
     }
     a{
         outline: 3px solid blue; 
@@ -52,16 +51,15 @@ $colorBorde: #563f40;
             margin-left: auto;
             margin-right: auto;
             
-            
-            
-            
-        }
+              }
         
        
 
 }
                      a:nth-child(1)  {
                              background-color: $colorSeccion1;
+
+                            
                              
                             }
 
@@ -92,6 +90,7 @@ $colorBorde: #563f40;
                                 section:nth-child(1){
                                     background-color: $colorSeccion1;
                                 
+                                
                                 }
                                 section:nth-child(2){
                                     background-color: $colorSeccion2;
@@ -107,6 +106,7 @@ $colorBorde: #563f40;
 
 
         #seccion1{
+    
             .encabezadoSeccion1{
                 background-color: $colorEncabezados;
                 width: 35vw;
@@ -323,8 +323,22 @@ $colorBorde: #563f40;
  
  }/* cierro seccion 3 */
 
- } /* cierro article */
-}}                         
+ }
+}
+
+/* ---------seccion4 */
+
+#seccion4{
+    h2{
+        margin-top: -35rem;
+    }
+
+}
+
+
+
+
+}                         
 
                             
                             
