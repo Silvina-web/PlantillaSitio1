@@ -329,11 +329,54 @@ $colorBorde: #563f40;
 /* ---------seccion4 */
 
 #seccion4{
-    h2{
-        margin-top: -35rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   /*  position: relative; */
+/* cajon mapa------- */
+    .mapa{
+        outline: 3px solid green;
+        iframe{
+            border-radius:  10px;
+        }
+        h4{
+            text-align: center;
+            padding: 1rem;
+        }
+        p{
+            outline: 3px solid red;
+            text-align: center;
+            padding: .5rem;
+        }
+
+    }
+/* cajon redes-------- */
+    .container-redes{
+        outline: 3px solid pink;
+        padding: 2rem;
+        width: 50rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
-}
+    /* cajon vecinas */
+    .vecinas{
+      /*   position: absolute;
+        bottom: 2%;
+        left: 1%; */
+        a{
+            text-decoration: none;
+            color: #1f1c1c;
+            
+        }
+    }
+
+   
+   
+
+}/* fin seccion4 */
 
 
 
