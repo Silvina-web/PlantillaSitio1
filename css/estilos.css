@@ -322,6 +322,11 @@
   text-align: center;
   padding: 0.5rem;
 }
+@media screen and (max-width: 500px) {
+  .article #seccion4 .mapa {
+    margin-bottom: -8rem;
+  }
+}
 .article #seccion4 .container-redes {
   width: 50rem;
   display: flex;
