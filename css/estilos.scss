@@ -374,7 +374,7 @@ $colorBorde: #563f40;
 /* ---------seccion4 */
 
 #seccion4{
-   
+   height: 110vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -401,11 +401,11 @@ $colorBorde: #563f40;
         p{
            
             text-align: center;
-            padding: .5rem;
+           
         }
 
         @media screen  and (max-width: 500px) {
-            margin-bottom: -8rem;
+            margin-bottom: -10rem;
         }
 
     }

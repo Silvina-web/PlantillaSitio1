@@ -294,6 +294,7 @@
   }
 }
 .article #seccion4 {
+  height: 110vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -321,11 +322,10 @@
 }
 .article #seccion4 .mapa p {
   text-align: center;
-  padding: 0.5rem;
 }
 @media screen and (max-width: 500px) {
   .article #seccion4 .mapa {
-    margin-bottom: -8rem;
+    margin-bottom: -10rem;
   }
 }
 .article #seccion4 .container-redes {
