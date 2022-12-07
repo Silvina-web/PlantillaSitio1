@@ -116,7 +116,10 @@
   .article #seccion1 .textoSeccion1 {
     width: 75vw;
     height: 40vh;
-    top: 35vh;
+    top: 34vh;
+  }
+  .article #seccion1 .textoSeccion1 p {
+    margin-top: 1rem;
   }
 }
 @media screen and (max-width: 400px) {

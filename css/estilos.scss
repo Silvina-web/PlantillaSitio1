@@ -136,6 +136,7 @@ $colorBorde: #563f40;
                     @media screen  and (max-width: 400px){
                        
                         margin-bottom: -2rem; 
+                        
                     }
 
 
@@ -157,7 +158,12 @@ $colorBorde: #563f40;
                     
                     width: 75vw;
                     height: 40vh;
-                    top: 35vh;
+                    top: 34vh;
+
+                    p{  
+                       
+                        margin-top: 1rem;
+                    }
                 }
 
                @media screen  and (max-width: 400px){
