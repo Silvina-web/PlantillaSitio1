@@ -190,6 +190,7 @@
 }
 .article #seccion3 .seccion-imagenes h2 {
   text-align: center;
+  margin-top: 3rem;
 }
 @media screen and (max-width: 800px) {
   .article #seccion3 .seccion-imagenes h2 {
@@ -274,15 +275,16 @@
     height: 100vh; */
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande.block-imagen figure img {
-  margin-left: 6rem;
-  width: 28vw;
+  margin-top: 5rem;
+  margin-left: 9rem;
+  width: 25vw;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(92, 92, 92, 0.753);
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgGrande.block-imagen figure p {
   position: absolute;
   right: 3rem;
-  top: 1rem;
+  top: 5rem;
   font-size: 25px;
   cursor: pointer;
 }
