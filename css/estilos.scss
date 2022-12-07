@@ -386,6 +386,9 @@ $colorBorde: #563f40;
             @media screen  and (max-width: 800px){
                 width: 60vw;
             }
+            @media screen  and (max-width: 500px){
+                width: 80vw;
+            }
         }
         h4{
             text-align: center;

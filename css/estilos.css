@@ -309,6 +309,11 @@
     width: 60vw;
   }
 }
+@media screen and (max-width: 500px) {
+  .article #seccion4 .mapa iframe {
+    width: 80vw;
+  }
+}
 .article #seccion4 .mapa h4 {
   text-align: center;
   padding: 1rem;
