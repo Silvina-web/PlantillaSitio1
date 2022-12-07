@@ -1,23 +1,21 @@
 .header nav {
-  outline: 5px solid pink;
   position: fixed;
   top: 50%;
   right: 0;
   transform: translateY(-50%);
+  z-index: 3;
 }
 @media screen and (max-width: 800px) {
   .header nav {
-    outline: 5px solid yellow;
     display: flex;
     flex-direction: row;
     position: fixed;
     top: 5%;
-    width: 100vw;
+    width: 99vw;
     z-index: 2;
   }
 }
 .header a {
-  outline: 3px solid blue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,10 +30,9 @@
 }
 @media screen and (max-width: 800px) {
   .header a {
-    outline: 5px solid rgb(59, 107, 57);
     margin: 1rem;
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 4rem;
+    height: 4rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -53,6 +50,7 @@
   background-color: #746566;
 }
 
+/* FIN HEADER */
 .article {
   /* .......................seccion con js ....................seccion con js */
   /* ---------seccion4 */
@@ -94,12 +92,10 @@
 }
 @media screen and (max-width: 800px) {
   .article #seccion1 .encabezadoSeccion1 {
-    outline: 5px solid blue;
     width: 55vw;
   }
 }
 .article #seccion1 .textoSeccion1 {
-  outline: 2px solid pink;
   border: 1px solid #563f40;
   width: 40vw;
   height: 30vh;
@@ -113,7 +109,6 @@
 }
 @media screen and (max-width: 800px) {
   .article #seccion1 .textoSeccion1 {
-    outline: 5px solid red;
     width: 75vw;
     height: 40vh;
     top: 35vh;
@@ -152,7 +147,6 @@
   overflow: hidden;
 }
 .article #seccion3 .seccion-imagenes {
-  outline: 5px solid pink;
   width: 90vw;
   margin: auto;
   height: 100vh;
@@ -179,7 +173,6 @@
   display: flex;
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas {
-  outline: 5px solid rgb(93, 93, 141);
   position: relative;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -191,7 +184,6 @@
   /* cierro resize-box-imagenes */
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas figure {
-  outline: 2px solid red;
   text-align: center;
   position: relative;
   width: 85%;
@@ -211,7 +203,6 @@
   /* height: 100%; */
 }
 .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas.resize-box-imagenes {
-  outline: 3px solid blue;
   overflow-y: scroll;
   height: 70vh;
   width: 50vw;
@@ -225,7 +216,6 @@
     margin-top: 4rem;
     overflow-y: scroll;
     height: 70vh;
-    outline: 5px solid brown;
   }
   .article #seccion3 .seccion-imagenes .cajaGrande .cajaImgChicas.resize-box-imagenes {
     width: 900vw;
@@ -272,28 +262,29 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /*  position: relative; */
+  /* para vecinas */
+  position: relative;
   /* cajon mapa------- */
   /* cajon redes-------- */
   /* cajon vecinas */
 }
-.article #seccion4 .mapa {
-  outline: 3px solid green;
-}
 .article #seccion4 .mapa iframe {
   border-radius: 10px;
+}
+@media screen and (max-width: 800px) {
+  .article #seccion4 .mapa iframe {
+    width: 60vw;
+  }
 }
 .article #seccion4 .mapa h4 {
   text-align: center;
   padding: 1rem;
 }
 .article #seccion4 .mapa p {
-  outline: 3px solid red;
   text-align: center;
   padding: 0.5rem;
 }
 .article #seccion4 .container-redes {
-  outline: 3px solid pink;
   padding: 2rem;
   width: 50rem;
   display: flex;
@@ -302,11 +293,17 @@
   justify-content: space-evenly;
 }
 .article #seccion4 .vecinas {
-  /*   position: absolute;
-    bottom: 2%;
-    left: 1%; */
+  position: absolute;
+  bottom: 2%;
+  left: 5%;
 }
 .article #seccion4 .vecinas a {
   text-decoration: none;
   color: #1f1c1c;
+  font-size: 13px;
+}
+@media screen and (max-width: 800px) {
+  .article #seccion4 .vecinas a {
+    font-size: 11px;
+  }
 }/*# sourceMappingURL=estilos.css.map */
