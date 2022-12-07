@@ -368,14 +368,13 @@ $colorBorde: #563f40;
     }
 /* cajon redes-------- */
     .container-redes{
-       outline: 1px solid pink;
-        padding: 2rem;
+        
         width: 50rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-    }
+    } 
 
     /* cajon vecinas */
     .vecinas{
