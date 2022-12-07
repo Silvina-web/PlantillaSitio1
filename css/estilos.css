@@ -95,6 +95,11 @@
     width: 55vw;
   }
 }
+@media screen and (max-width: 400px) {
+  .article #seccion1 .encabezadoSeccion1 {
+    margin-bottom: -2rem;
+  }
+}
 .article #seccion1 .textoSeccion1 {
   border: 1px solid #563f40;
   width: 40vw;
@@ -114,6 +119,14 @@
     top: 35vh;
   }
 }
+@media screen and (max-width: 400px) {
+  .article #seccion1 .textoSeccion1 {
+    height: 60vh;
+  }
+  .article #seccion1 .textoSeccion1 p {
+    padding: 1rem;
+  }
+}
 .article #seccion2 .encabezadoSeccion2 {
   background-color: rgba(199, 100, 91, 0.9921568627);
   width: 35vw;
@@ -127,6 +140,16 @@
   margin-left: 2rem;
   margin-top: 2rem;
 }
+@media screen and (max-width: 800px) {
+  .article #seccion2 .encabezadoSeccion2 {
+    width: 55vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .article #seccion2 .encabezadoSeccion2 {
+    margin-bottom: -2rem;
+  }
+}
 .article #seccion2 .textoSeccion2 {
   border: 1px solid #f0e5dc;
   width: 40vw;
@@ -139,6 +162,13 @@
 }
 .article #seccion2 .textoSeccion2 ul li {
   padding: 2rem;
+}
+@media screen and (max-width: 400px) {
+  .article #seccion2 .textoSeccion2 {
+    height: 50vh;
+    width: 60vw;
+    margin-top: 9rem;
+  }
 }
 .article #seccion3 .body {
   overflow: scroll;
@@ -290,6 +320,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+@media screen and (max-width: 400px) {
+  .article #seccion4 .container-redes {
+    margin-bottom: 3rem;
+  }
 }
 .article #seccion4 .vecinas {
   position: absolute;

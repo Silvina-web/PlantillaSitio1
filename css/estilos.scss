@@ -115,6 +115,7 @@ $colorBorde: #563f40;
         #seccion1{
     
             .encabezadoSeccion1{
+                
                 background-color: $colorEncabezados;
                 width: 35vw;
                 height: 20vh;
@@ -132,6 +133,11 @@ $colorBorde: #563f40;
                        
                         width: 55vw;
                     }
+                    @media screen  and (max-width: 400px){
+                       
+                        margin-bottom: -2rem; 
+                    }
+
 
             }
             .textoSeccion1{
@@ -154,6 +160,12 @@ $colorBorde: #563f40;
                     top: 35vh;
                 }
 
+               @media screen  and (max-width: 400px){
+                height: 60vh;
+                p{
+                    padding: 1rem;
+                }
+               }
             }
         }
     #seccion2{
@@ -169,6 +181,15 @@ $colorBorde: #563f40;
             h2{
                 margin-left: 2rem;
                 margin-top: 2rem;
+            }
+
+            @media screen  and (max-width: 800px) {
+                       
+                width: 55vw;
+            }
+            @media screen  and (max-width: 400px){
+               
+                margin-bottom: -2rem; 
             }
 
         }
@@ -188,6 +209,13 @@ $colorBorde: #563f40;
             }
             
            
+           @media screen  and (max-width:400px) { 
+           
+            height: 50vh;
+            width: 60vw;
+            margin-top: 9rem;
+            
+           }
 
         }
 
@@ -374,6 +402,11 @@ $colorBorde: #563f40;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+
+        @media screen  and (max-width: 400px){
+             margin-bottom: 3rem;  
+        }
+
     } 
 
     /* cajon vecinas */
