@@ -114,8 +114,8 @@
 }
 @media screen and (max-width: 800px) {
   .article #seccion1 .textoSeccion1 {
-    width: 75vw;
-    height: 40vh;
+    width: 80vw;
+    height: 45vh;
     top: 34vh;
   }
   .article #seccion1 .textoSeccion1 p {
@@ -124,7 +124,7 @@
 }
 @media screen and (max-width: 400px) {
   .article #seccion1 .textoSeccion1 {
-    height: 60vh;
+    height: 65vh;
   }
   .article #seccion1 .textoSeccion1 p {
     padding: 1rem;
@@ -168,7 +168,7 @@
 }
 @media screen and (max-width: 400px) {
   .article #seccion2 .textoSeccion2 {
-    height: 50vh;
+    height: 55vh;
     width: 60vw;
     margin-top: 9rem;
   }
@@ -318,7 +318,6 @@
 }
 .article #seccion4 .mapa h4 {
   text-align: center;
-  padding: 1rem;
 }
 .article #seccion4 .mapa p {
   text-align: center;
@@ -338,7 +337,7 @@
 }
 @media screen and (max-width: 400px) {
   .article #seccion4 .container-redes {
-    margin-bottom: 3rem;
+    margin-bottom: -2rem;
   }
 }
 .article #seccion4 .vecinas {

@@ -156,8 +156,8 @@ $colorBorde: #563f40;
 
                 @media screen  and (max-width: 800px){
                     
-                    width: 75vw;
-                    height: 40vh;
+                    width: 80vw;
+                    height: 45vh;
                     top: 34vh;
 
                     p{  
@@ -167,7 +167,7 @@ $colorBorde: #563f40;
                 }
 
                @media screen  and (max-width: 400px){
-                height: 60vh;
+                height: 65vh;
                 p{
                     padding: 1rem;
                 }
@@ -217,7 +217,7 @@ $colorBorde: #563f40;
            
            @media screen  and (max-width:400px) { 
            
-            height: 50vh;
+            height: 55vh;
             width: 60vw;
             margin-top: 9rem;
             
@@ -396,7 +396,7 @@ $colorBorde: #563f40;
         }
         h4{
             text-align: center;
-            padding: 1rem;
+           
         }
         p{
            
@@ -419,7 +419,7 @@ $colorBorde: #563f40;
         justify-content: space-evenly;
 
         @media screen  and (max-width: 400px){
-             margin-bottom: 3rem;  
+             margin-bottom: -2rem;  
         }
 
     } 
